@@ -27,6 +27,7 @@ This ensures high-quality inputs while preserving statistical characteristics.
 
 ### Sequential Transfer Learning Process
 Instead of training on all regions at once, the model is trained on one region at a time, preserving learned weights after each stage. The models were trained on datasets across the globe, adding datasets starting from the US and moving roughly eastward, in the order shown below:
+
 US → Colombia → UK → Uganda → India → China → Australia
 
 This incremental training of the DL models via these datasets is the Sequential Transfer Learning process. 
